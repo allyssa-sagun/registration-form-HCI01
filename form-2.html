@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+	<head>
+ 	<meta charset="utf-8">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 	<!-- CSS -->
+ 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+	rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" 
+	crossorigin="anonymous">
+	 <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+	 <link href="./css/bootstrap.min.css" rel="stylesheet">
+	 <link href="./css/form.css" rel="stylesheet">
+	 <title>Registration Form</title>
+	 <link rel="icon" type="image/x-icon" href="./images/smiley-rf.png">
+	</head>
+	<body>
+ 		<div class="the-head px-0"> 
+ 			<nav class="navbar navbar-expand-lg navbar-light"></nav>
+	 	</div>
+	 	<main>
+	 		<div class="register-container py-5 px-3" style="font-size: 17px;">
+	 			<div class="register-box" style="width:730px;">
+					<legend class="title-form" style="margin-top: 30px;">Registration Form</legend></br>
+							<p>Personal Information</p>
+							<div class="line"></div>
+						
+						<form style="padding: 30px; padding-left: 15px; padding-right: 15px; padding-top: 30px;">						
+							<fieldset style="border-left: solid black 1px; border-right: solid black 1px; padding: 20px; padding-top: 0;">
+		
+								<div class="column-form" style="width: 650px;">
+									<div class="col-item">
+										<label class="login-form" for="fname">First Name:</label></br>
+										<input type="text" name="fname" id="fname" style="width: 168px;">
+									</div>
+									<div class="col-item" style="margin-left: 10px;">
+										<label class="login-form" for="mname">Middle Name:</label></br>
+										<input type="text" name="mname" id="mname" style="width: 168px;">
+									</div>
+									<div class="col-item"style="margin-left: 10px;">
+										<label class="login-form" for="lname">Last Name:</label></br>
+										<input type="text" name="lname" id="lname" style="width: 168px;">
+									</div>
+									<div class="col-item"style="margin-left: 10px;">
+										<label class="login-form" for="suffix">Suffix:</label></br>
+										<select name="suffix" id="suffix"style="width:67px; height: 30.5px;">
+										<option></option>
+											<option value="none">None</option>									
+											<option value="jr">Jr.</option>
+											<option value="sr">Sr.</option>
+											<option value="I">I</option>
+											<option value="I">II</option>
+											<option value="I">III</option>
+										</select></br>
+									</div>
+								</div>
+
+								<div class="column-form" style="width: 498px;">
+									<div class="col-item">
+										<label class="login-form" for="sex">Sex:</label></br>
+										<select name="sex" id="sex" style="width: 168px; height: 29px;">
+											<option></option>
+											<option value="male">Male</option>
+											<option value="female">Female</option>
+											<option value="male">Rather not say</option></br>
+										</select></br>
+									</div>
+
+									<div class="col-item">
+										<label class="login-form" for="dobirth">Date of Birth:</label></br>
+										<input type="date" name="dobirth" id="dobirth" style="width: 168px; height: 30px;"></br>
+									</div>
+								</div>
+
+								<div class="column-form">
+									<div class="col-item">
+										<label class="login-form" for="civil-status">Civil Status:</label></br>
+										<select name="civil-status" id="civil-status" style="width:168px; height: 29px;">
+											<option></option>
+											<option value="single">Single</option>
+											<option value="married">Married</option>
+											<option value="windowed">Windowed</option>
+											<option value="seperated">Seperated</option></br>
+										</select></br>
+									</div>
+									<div class="col-item" style="margin-left: 10px;">
+										<label class="login-form" for="religion">Religion:</label></br>
+										<input type="text" name="religion" id="religion" style="width: 168px;"></br>
+									</div>
+									<div class="col-item" style="margin-left: 10px;">
+										<label class="login-form" for="nationality">Nationality:</label></br>
+										<input type="text" name="nationality" id="nationality" style="width: 168px;"></br>
+									</div>
+								</div>
+
+									<label class="login-form" for="home-address">Home Address:</label></br>
+									<input type="text" name="home-address" id="home-address" style="width: 525px;"></br>
+								
+
+								<div class="column-form">									
+									<div class="col-item">
+										<label class="login-form" for="city">City:</label><br>
+										<!-- <input type="text" name="city" id="city"> -->
+										<select name="city" id="city" style="width: 168px; height: 30px;">
+											<option></option>
+											<option value="city1">Cabanatuan City</option>
+											<option value="city2">Gapan City</option>
+											<option value="city3">Natividad</option>
+											<option value="city4">Tarlac City</option></br>
+										</select></br>
+									</div>
+
+									<div class="col-item" style="margin-left: 10px;">
+										<label class="login-form" for="province">Province:</label></br>
+										<select name="province" id="province" style="width: 168px; height: 30px;">
+											<option></option>
+											<option value="province4">Aurora</option>
+											<option value="province1">Nueva Ecija</option>
+											<option value="province2">Nueva Vizcaya</option>
+											<option value="province3">Pampanga</option>
+											</br>
+										</select></br>
+									</div>
+
+									<div class="col-item" style="margin-left: 10px;">
+										<label class="login-form" for="zip-code">Zip Code:</label></br>
+										<input type="text" name="zip-code" id="zip-code" style="width: 168px;">
+									</div>
+								</div>								
+
+								<label class="login-form" for="phone">Phone Number:</label></br>
+
+								<div class="column-form">
+									<div class="col-item" style="flex: 0%;">
+										<select name="area-code" id="area-code" style="width:63px;height: 30px;">
+											<option value="+63">+63</option>
+											<option value="+65">+65</option>
+											<option value="+84">+84</option>
+											<option value="+91">+91</option>
+											<option value="+92">+92</option>
+											<option value="+94">+94</option>
+										</select></br>
+
+									</div>
+									<div class="col-item" style="flex: 73%; margin-left: 10px;">
+										<input type="text" name="phone" id="phone" style="width:168px;"></br>
+									</div>
+								</div>
+								</br>
+								</br>
+								<div style="margin-left: 170px;">	
+									<a class="register-btn btn lbtn cancel" style="margin-left: 2px; background-color: white;" href="form-1.html">Previous</a>
+									<a class="register-btn btn lbtn" style="margin-left: 28px;" href="reg-complete.html">Submit</a>
+								</div>
+						</fieldset>
+					</form>
+	 			</div>
+	 		</div>
+	 	</main>
+	 	<footer class="py-5">		
+		</footer>
+ 		<!-- Bootstrap JS -->
+ 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+		integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" 
+		crossorigin="anonymous"></script>
+		<script src="js/form.js"></script>
+	</body>
+</html>

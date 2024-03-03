@@ -1,0 +1,216 @@
+body{
+	display: flex;
+	flex-direction: column;
+	background-color: lightgray;
+	color: black;
+	font-family: "Poppins",sans-serif;
+}
+
+.navbar{
+	background-color: gray;
+	height: 90px;
+}
+
+.nav-link{
+	color: white !important;
+}
+
+.main-container{
+	margin: 40px;
+	margin-left: 25px;	
+	padding-left: 30px;
+	color: black;
+	width: 600px;
+	padding: 30px;
+	padding-top: 30px !important;
+	padding-bottom: 15px !important;
+	margin: auto;
+	margin-bottom: 0px;
+	border-radius: 25px;
+}
+
+.menu-form{
+	background-color: white;
+	margin-left: 10px;	
+	padding-left: 50px;
+	padding-top: 20px;
+	height: 380px;
+	width: 520px;
+	border: solid white 2px;
+	border-radius: 20px;
+}
+
+legend.title-form{
+	font-size: 35px;
+}
+
+.line{
+	background-color: black;
+	height: 2px;
+	width: auto;
+	margin-top: 10px;
+	margin: 0;
+	padding: 0;
+}
+
+label.login-form{
+	color: black;
+	margin-top: 12px;
+}
+
+
+
+a.register-btn, a.btn{
+	text-decoration: none;
+	border: solid black 1px;
+	border-radius: 5px;
+}
+
+a.register-btn, .register-btn{
+	font-size: 16px;
+	height: auto;
+}
+
+.lbtn{
+	width: 100px;
+	height: 100px;
+	border: solid black 1.5px !important;
+	margin-top: 25px;
+	background-color: skyblue;
+}
+
+.lbtn:hover{
+	background-color: deepskyblue;
+	border: solid black 1.5px;
+}
+
+a.cancel:hover{
+	background-color: lightgray !important;
+}
+
+.reglink{
+	height: 100px;
+	width: 140px;
+	color: black;
+	margin-left: 5px;
+}
+
+.reglink:hover{
+	color: slateblue;
+}
+
+
+a.forgot{
+	color: mediumvioletred;
+	text-decoration: none;
+	font-size: 14.5px;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+a.forgot:hover{
+	text-decoration: underline;
+}
+
+
+.side-image{
+	display: flex;
+	padding: 10px;
+}
+
+
+
+.register-container{
+	flex-direction: column;	
+}
+
+.register-box{
+	background-color: white;
+	color: black;
+	width: 850px;
+	padding: 30px;
+	padding-top: 20px;
+	margin: auto;
+	border-radius: 25px;
+}
+
+.column-form{
+	display: flex;
+	padding-right: 140px;
+}
+
+.col-item{
+	flex: 50%;
+}
+
+
+.togglepass{
+	margin: 10px;
+	padding: 0;
+	width: 20px;
+	height:34px;
+}
+
+input, select, option{
+	border-radius: 5px;
+	border: solid black 1.5px;
+}
+
+input[type="text"]:focus, input[type="password"]:focus, input[type="date"]:focus, select:focus{
+	background-color: #cfddff;
+}
+
+option:not(:checked){
+	background-color: white;
+}
+
+input[type="date"]{
+	width: 100px;
+	height: 90px;
+}
+
+p.instruct, li.instruct{
+	color: mediumvioletred;
+	font-size: 14.5px;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+#submit{
+	height: 40px;
+	width: 100px;
+	border-radius:5px;
+	margin-left: 15px;
+	background-color: skyblue;
+}
+
+#submit:hover{
+	background-color: deepskyblue;
+}
+
+
+
+footer{
+	background-color: gray;
+	height: auto;
+	width: auto;
+	flex-shrink: 0;
+}
+
+::-webkit-scrollbar {
+	width: 12px;
+}
+
+::-webkit-scrollbar-track {
+	background: gray;
+}
+
+::-webkit-scrollbar-thumb {
+	background: rgba(0, 0, 0, 0.5);
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: rgba(0, 0, 0, 0.3);
+}

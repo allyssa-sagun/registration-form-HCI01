@@ -157,7 +157,7 @@ input, select, option{
 	border: solid black 1.5px;
 }
 
-select{
+select, input[type="date"]{
 	background-color: white;
 }
 
